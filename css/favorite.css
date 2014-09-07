@@ -38,8 +38,8 @@ h1{
 }
 
 .gallery a:hover{
-	color: #666;
-	border-bottom: 1px solid #666;
+	color: #80e4ff;
+	border-bottom: 1px solid #80e4ff;
 }
 
 .gallery .thumb{
@@ -52,8 +52,4 @@ h1{
 
 .gallery .thumb:hover{
 	opacity: 0.5;	
-}
-
-.gallery .text{
-	
 }
