@@ -8,39 +8,38 @@ a, a:visited{
 	color: inherit;
 }
 section{
-	width: 100%;
+	width: 900px;
+	padding-left: 50px;
+	margin: 0 auto;
 }
 
-.left{
-	padding-top: 150px;
-	width: 400px;
-	background: #333;
+h1{
 	font-family: arial;
-	font-size: 30px;
-	color: #fff;
+	font-size: 100px;
+	letter-spacing: -2px;
+	color: #333;
+	margin: 0;
+	margin-top: 200px;
+	line-height: 80px;
 }
 ul{
 	list-style: none;
-	margin: 0;
 	padding: 0;
-	text-align: center;
 }
 
 ul li{
 	display: block;
-	padding: 10px;
 	font-family: arial;
 	font-size: 24px;
 	font-weight: 700;
-	color: #ececec;
+	color: #333;
 	letter-spacing: -1px;
 	-webkit-transition: all ease-in-out 0.2s;
 	transition: all ease-in-out 0.2s;
 }
 
 ul li:hover{
-	background-color: #555;
-	color: #fff;
+	color: #3f81aa;
 }
 
 ul li ul{
@@ -48,6 +47,16 @@ ul li ul{
 	visibility: hidden;
 	margin-top: 10px;
 	padding: 0;
+	-webkit-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
+}
+
+ul li ul li{
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 2px 0;
 }
 
 ul li:hover ul{
