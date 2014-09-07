@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	position: relative;
 }
 
 section{
@@ -29,6 +30,8 @@ h1{
 	line-height: 16px;
 	margin-bottom: 100px;
 	height: auto;
+	-webkit-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .gallery b{
@@ -37,9 +40,14 @@ h1{
 	text-transform: uppercase;
 }
 
+.gallery a{
+	-webkit-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
+}
+
 .gallery a:hover{
-	color: #80e4ff;
-	border-bottom: 1px solid #80e4ff;
+	color: #3f81aa;
+	border-bottom: 1px solid #3f81aa;
 }
 
 .gallery .thumb{
