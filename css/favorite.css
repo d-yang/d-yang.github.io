@@ -6,7 +6,11 @@ body{
 section{
 	width: 800px;
 	margin: 0 auto;
-	margin-bottom: 100px;
+}
+
+a, a:visited{
+	text-decoration: none;
+	color: inherit;
 }
 
 h1{
@@ -18,21 +22,38 @@ h1{
 	color: #333333;
 }
 
-.gallery .overlay{
-	display: none;
-	width: 400px;
-	height: 270px;
-	background-color: rgba(0,0,0,0.5);
+.gallery{
+	font-family: arial;
+	color: #333333;
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 100px;
+	height: auto;
 }
 
-.gallery .overlay:hover{
-	display: block;
+.gallery b{
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
 }
+
+.gallery a:hover{
+	color: #666;
+	border-bottom: 1px solid #666;
+}
+
 .gallery .thumb{
-	width: 400px;
-	height: 270px;
+	-webkit-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 100px;
 }
 
 .gallery .thumb:hover{
-	border: 1px solid #ddd;
+	opacity: 0.5;	
+}
+
+.gallery .text{
+	
 }
