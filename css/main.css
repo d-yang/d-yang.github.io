@@ -17,26 +17,44 @@ h1{
 
 button{
 	display: block;
-	top: 0;
-	padding: 20px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	padding: 15px;
 	margin: 0;
-	background: #ececec;
+	background: rgba(255,255,255,0.5);
 	border: none;
 	z-index: 10000;
 	cursor: pointer;
 }
-
+#nav .current a{
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
 .container{
 	width: 100%;
-	height: 100%;
+	margin: 0;
 }
 
-.container .main{
+.main{
 	width: 100%;
 	height: 100%;
-	background: #ececec;
 }
 
-#nav .current a {
-	color: #fff;
+.content{
+	width: 80%;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+.about{
+	width: 100%;
+	height: 100%;
+	background: #c1d9e8;
+}
+
+.portfolio{
+	width: 100%;
+	height: 100%;
+	background: #f7f7f7;
 }
