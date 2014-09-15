@@ -2,63 +2,40 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
-a, a:visited{
+a:link, a:visited{
 	text-decoration: none;
 	color: inherit;
 }
-section{
-	width: 800px;
-	margin: 0 auto;
-}
 
 h1{
-	font-family: arial;
-	font-size: 100px;
-	letter-spacing: -2px;
+	font-family: arial, sans-serif;
+	font-size: 70px;
+	letter-spacing: -3px;
 	color: #333;
-	margin: 0;
-	margin-top: 200px;
-	line-height: 80px;
-}
-ul{
-	list-style: none;
-	padding: 0;
+	line-height: 60px;
 }
 
-ul li{
+button{
 	display: block;
-	font-family: arial;
-	font-size: 24px;
-	font-weight: 700;
-	color: #333;
-	letter-spacing: -1px;
-	-webkit-transition: all ease-in-out 0.2s;
-	transition: all ease-in-out 0.2s;
+	top: 0;
+	padding: 20px;
+	margin: 0;
+	background: #ececec;
+	border: none;
+	z-index: 10000;
+	cursor: pointer;
 }
 
-ul li:hover{
-	color: #3f81aa;
+.container{
+	width: 100%;
 }
 
-ul li ul{
-	opacity: 0;
-	visibility: hidden;
-	margin-top: 10px;
-	padding: 0;
-	-webkit-transition: all ease-in-out 0.2s;
-	transition: all ease-in-out 0.2s;
+.container .main{
+	width: 100%;
+	height: 100%;
+	background: #ececec;
 }
 
-ul li ul li{
-	font-size: 12px;
-	font-weight: normal;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	padding: 2px 0;
-}
-
-ul li:hover ul{
-	opacity: 1;
-	visibility: visible;
+#nav .current a {
+	color: #fff;
 }
