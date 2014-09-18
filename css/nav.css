@@ -1,18 +1,18 @@
 .nav {
-	background: #444;
+	background: #333;
 	position: fixed;
 	font-family: arial, sans-serif;
 }
 
 .nav h3 {
 	color: #fff;
-	font-size: 60px;
+	font-size: 100px;
 	letter-spacing: -2px;
 	padding-left: 20px;
 	margin: 0;
-	margin-top: 110px;
+	margin-top: 118px;
 	font-weight: 700;
-	line-height: 40px;
+	line-height: 60px;
 }
 
 .nav ul{

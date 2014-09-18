@@ -9,7 +9,7 @@ a:link, a:visited{
 
 h1{
 	font-family: arial, sans-serif;
-	font-size: 70px;
+	font-size: 100px;
 	letter-spacing: -3px;
 	color: #333;
 	line-height: 60px;
@@ -29,7 +29,6 @@ button{
 }
 #nav .current a{
 	color: #fff;
-	border-bottom: 2px solid #fff;
 }
 .container{
 	width: 100%;
@@ -45,7 +44,7 @@ button{
 }
 
 .content{
-	width: 80%;
+	width: 800px;
 	padding-top: 50px;
 	margin: 0 auto;
 }

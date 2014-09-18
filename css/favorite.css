@@ -26,9 +26,9 @@ h1{
 .back{
 	position: fixed;
 	top: 0;
-	left: 0;
+	right: 0;
 	font-size: 20px;
-	padding: 10px;
+	padding: 30px;
 	-webkit-transition: all ease-in-out 0.2s;
 	transition: all ease-in-out 0.2s;
 }
@@ -42,7 +42,7 @@ h1{
 	font-size: 12px;
 	line-height: 16px;
 	margin-bottom: 100px;
-	height: auto;
+	height: 270px;
 	-webkit-transition: all ease-in-out 0.2s;
 	transition: all ease-in-out 0.2s;
 }
