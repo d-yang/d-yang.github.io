@@ -12,7 +12,7 @@ h1{
 	font-size: 100px;
 	letter-spacing: -3px;
 	color: #333;
-	line-height: 60px;
+	line-height: 80px;
 }
 
 button{
@@ -44,7 +44,7 @@ button{
 }
 
 .content{
-	width: 800px;
+	width: 80%;
 	padding-top: 50px;
 	margin: 0 auto;
 }
