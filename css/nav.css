@@ -1,5 +1,5 @@
 .nav {
-	background: #333;
+	background: rgba(0,0,0,0.8);
 	position: fixed;
 	font-family: arial, sans-serif;
 }
@@ -27,6 +27,8 @@
 	color: #bebebe;
 	font-weight: 600;
 	font-size: 18px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 .nav ul li:hover{
@@ -34,12 +36,11 @@
 }
 .nav ul li ul{
 	opacity: 0;
-	height: 0;
-	visibility: hidden;
-	margin-top: 10px;
+	max-height: 0;
+	margin-top: 0;
 	padding: 0;
-	-webkit-transition: all ease-in-out 0.2s;
-	transition: all ease-in-out 0.2s;
+	-webkit-transition: max-height 0.3s ease-in-out, opacity 0.5s ease-in-out;
+	transition: max-height 0.3s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .nav ul li ul li{
@@ -48,17 +49,18 @@
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	padding: 2px 0;
-	margin: 5px 0;
-	-webkit-transition: all ease-in-out 0.2s;
-	transition: all ease-in-out 0.2s;
 }
 
 .nav ul li:hover ul{
 	opacity: 1;
-	visibility: visible;
 	height: auto;
-}
+	max-height: 500px;
+	margin-top: 10px;
 
+}
+.nav ul li:hover li{
+	margin: 5px 0;
+}
 .nav-vertical {
 	width: 240px;
 	height: 100%;

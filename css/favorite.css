@@ -6,6 +6,7 @@ body{
 
 section{
 	width: 80%;
+	max-width: 50em;
 	margin: 0 auto;
 }
 
