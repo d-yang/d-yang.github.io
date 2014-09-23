@@ -1,7 +1,6 @@
 .nav {
 	background: rgba(0,0,0,0.8);
 	position: fixed;
-	font-family: arial, sans-serif;
 }
 
 .nav h3 {
@@ -13,6 +12,7 @@
 	margin-top: 118px;
 	font-weight: 700;
 	line-height: 80px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .nav ul{
@@ -25,10 +25,13 @@
 	display: block;
 	padding: 10px 0;
 	color: #bebebe;
-	font-weight: 600;
-	font-size: 18px;
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 1px;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
 }
 
 .nav ul li:hover{
